@@ -1,2 +1,2 @@
-# scratchwebsite
+# odin-website
 Odin says try
