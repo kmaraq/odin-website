@@ -54,6 +54,7 @@ button {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
+    margin-bottom: 100px;
 }
 
 .side-pic {
