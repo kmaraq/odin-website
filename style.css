@@ -20,6 +20,18 @@ a {
     color: #E5E7EB;
 }
 
+button {
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    height: 35px;
+    width: 110px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -28,4 +40,36 @@ a {
 
 .header img {
     margin: 10px;
+}
+
+.content-one {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.side-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.side-pic {
+    display: flex;
+    margin: 10px 15px 100px;
+}
+
+.side-text .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 5px;
+}
+
+.side-text .body {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px;
 }
