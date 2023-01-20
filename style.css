@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.header img {
+    margin: 10px;
+}
