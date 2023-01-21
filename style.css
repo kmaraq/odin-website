@@ -119,3 +119,34 @@ button {
 }
 
 /* styling for content three */
+
+.content-three {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
+    background-color: #E5E7EB;
+    max-width: 900px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.quote {
+    display: flex;
+    margin-right: auto;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    margin-left: auto;
+    font-weight: bold;
+}
