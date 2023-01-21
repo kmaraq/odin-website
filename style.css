@@ -32,6 +32,8 @@ button {
     margin: 5px;
 }
 
+/* styling for header and content one */
+
 .header {
     display: flex;
     align-items: center;
@@ -74,3 +76,46 @@ button {
     color: #E5E7EB;
     margin: 5px;
 }
+
+/* styling for content two */
+
+.card-image {
+    width: 150px;
+    height: 150px;
+}
+
+.card-text {
+    max-width: 200px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.content-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.title-two {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 35px;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+/* styling for content three */
