@@ -150,3 +150,61 @@ button {
     margin-left: auto;
     font-weight: bold;
 }
+
+/* section four content stying */
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center
+    flex: 1;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 30px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 60px;
+    color: white;
+}
+
+.action-header {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.action-p {
+    font-size: 10px;
+}
+
+.button-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.action-button {
+    border: 1px solid white;
+}
+
+/* footer styling */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 80px;
+}
